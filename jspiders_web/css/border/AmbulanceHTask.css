@@ -1,0 +1,22 @@
+th{
+    border: 10px inset red;
+}
+table{
+    border-collapse: collapse;
+}
+#g_top{
+    border-bottom: none;
+}
+#g_left{
+    border-right: none;
+}
+#m_center{
+    border: none;
+}
+#h_right{
+    border-left: none;
+}
+#h_down{
+    border-top: none;
+}
+

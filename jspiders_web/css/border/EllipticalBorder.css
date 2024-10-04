@@ -1,0 +1,28 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(lightgreen,black);
+}
+#circular_radius{
+    border-radius: 10px;
+    border-radius: 10px 20px;
+    border-radius: 10px 20px 30px;
+    border-radius: 10px 20px 30px 40px;
+}
+#elliptical_radius{
+    border-radius: 10px/20px;
+    border-radius: 10px 20px/20px 10px;
+    border-radius: 10px 20px 30px 40px/40px 30px 20px 10px;
+}
+#square_to_circle{
+    border-radius: 50%;
+}
+#rectangle_to_ellipse{
+    width: 300px;
+    height: 150px;
+    border-radius: 150px/75px;
+}
+#water_drop{
+    border-radius: 98% 2% 63% 37% / 61% 0% 100% 39%;
+    background-image: linear-gradient(lightblue,darkblue);
+}

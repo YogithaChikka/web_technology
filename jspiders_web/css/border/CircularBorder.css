@@ -1,0 +1,23 @@
+#parent{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    /* one value */
+    border-radius: 10px;
+
+    /* two values */
+    /* top-left,bottom-right ; top-right,bottom-left */
+    border-radius: 10px 20px;
+
+    /* three values */
+    /* top-left; top-right, bottom-left; bottom-right */
+    border-radius: 10px 20px 30px;
+
+    /* four values */
+    /* top-left, top-right, bottom-right, bottom-left */
+    border-radius: 10px 20px 30px 40px;
+
+    /* square to circle */
+    border-radius: 50%;
+}

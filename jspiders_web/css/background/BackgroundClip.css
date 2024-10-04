@@ -1,0 +1,7 @@
+#instagram_heading{
+    font-size: 300px;
+    background-image: linear-gradient(to right,blue, magenta, red, orange);
+    background-clip: text;
+    width: fit-content;
+    color: transparent;
+}

@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#image_container{
+    width: 100%;
+    height: 550px;
+    background-color: aquamarine; 
+    background-image: url(../../assets/images/Moon.png),url(../../assets/images/LeftLargeMountain.png),url(../../assets/images/LeftSmallMountain.png),url(../../assets/images/SunImage.png),url(../../assets/images/LeftSmallMountain.png),url(../../assets/images/Birds.gif),url(../../assets/images/LeftLargeMountain.png); 
+    background-repeat: no-repeat;
+    background-position: top left,bottom left, 350px 300px, 700px 380px, 650px 300px, 850px 300px, bottom right;
+    background-size: 150px,450px,400px, 100px, 400px, 200px ,450px;
+}

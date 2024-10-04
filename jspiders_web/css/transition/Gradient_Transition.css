@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#instagram_heading{
+    width: fit-content;
+    background-image: linear-gradient(to right, blue,magenta,red,orangered,green,yellow);
+    margin: 200px auto;
+    font-size: 150px;
+    background-clip: text;
+    color: transparent;
+    background-size: 5000px;
+    transition: all 8s;
+}
+#instagram_heading:hover{
+    background-position: 2500px;
+}

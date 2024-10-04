@@ -1,0 +1,53 @@
+h1{
+    border-width: 3px;
+    width: fit-content;
+    border-color: black;
+}
+#solid_heading{
+    border-style: solid;
+}
+#dashed_heading{
+    border-style: dashed;
+}
+#dotted_heading{
+    border-style: dotted;
+}
+#double_heading{
+    border-style: double;
+}
+#inset_heading{
+    border-style: inset;
+    border-color: darkblue;
+}
+#outset_heading{
+    border-style: outset;
+    border-color: darkred;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border-width: 20px;
+}
+/* inside border - outset, outisde border - inset */
+#groove_border{
+    background-image: url(../../assets/images/Spiderman.jfif);
+    background-size: 100%;
+    border-style: groove;
+    border-color: maroon;
+}
+/* inside border - inset, outisde border - outset */
+#ridge_border{
+    background-image: url(../../assets/images/Earth.png);
+    background-size: 100%;
+    border-style: ridge;
+    border-color: darkblue;
+}
+#short_hand{
+    border: 10px solid red;
+}
+#mixed_border{
+    border-top: 10px solid red;
+    border-right: 10px double green;
+    border-bottom: 10px dashed orange;
+    border-left: 10px dotted black;
+}

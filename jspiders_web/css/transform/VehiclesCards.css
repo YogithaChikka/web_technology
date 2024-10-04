@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#image_container{
+    width: 650px;
+    margin-top: 600px;
+    margin-left: 400px;
+    border-radius: 30px;
+    transform: skew(-10deg);
+}
+.images{
+    width: 146px;
+    height: 150px;
+    background-color: gray;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin-left: -45px;
+}
+.images{
+    transition: all 3s;
+}
+/* translate: change position of any element
+    rotate: rotate element
+    scale: increase width & height of an element
+    skew: slant an element */
+
+#bicycle:hover{
+    transform: translate(185px,-350px) rotateY(360deg) scale(2) skew(10deg);
+}
+#bike:hover{
+    transform: translate(70px,-350px) rotateY(360deg) scale(2) skew(10deg);
+}
+#truck:hover{
+    transform: translate(-45px,-350px) rotateY(360deg) scale(2) skew(10deg);
+}
+#bull_dozer:hover{
+    transform: translate(-160px,-350px) rotateY(360deg) scale(2) skew(10deg);
+}
+#car:hover{
+    transform: translate(-275px,-350px) rotateY(360deg) scale(2) skew(10deg);
+}

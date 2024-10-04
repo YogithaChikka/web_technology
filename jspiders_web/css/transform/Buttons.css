@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#x_button,#y_button,#z_button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin: 200px 0px auto;
+    font-size: 50px;
+    background-color: lightblue;
+}
+#x_button{
+    margin-left: 37%;
+}
+#earth_image{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 44.5%;
+    transition: all 5s;
+}
+#x_button:hover~#earth_image{
+    transform: rotateX(180deg);
+}
+#y_button:hover~#earth_image{
+    transform: rotateY(360deg);
+}
+#z_button:hover~#earth_image{
+    transform: rotate(180deg);
+}

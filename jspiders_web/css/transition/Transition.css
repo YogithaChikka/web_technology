@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#playground{
+    width: 200px;
+    height: 200px;
+    background-image: url(../../assets/images/Batman.gif);
+    background-color: aquamarine;
+    background-size: 40%;
+    background-repeat: no-repeat;
+
+    /* transition: Css properties we wish to perform transition on    Duration of transition; */
+    transition: all 5s;
+}
+#playground:hover{
+    background-position: top right;
+}
+#container{
+    /* square */
+    /* width: 100px;
+    height: 100px; */
+
+    /* rectangle */
+    width: 150px;
+    height: 100px;
+    background-color: orangered;
+    /* transition-property: width,height,background-color,border-radius;
+    transition-duration: 2s,2s,5s,8s; */
+
+    /* when css properties have different duration */
+    /* transition: width 1s,height 1s,background-color 2s,border-radius 3s; */
+
+    /* when css properties have same duration */
+    transition: all 3s;
+}
+#container:hover{
+    width: 200px;
+    height: 150px;
+    background-color: yellowgreen;
+
+    /* square to circle */
+    /* border-radius: 50%; */
+
+    /* rectangle to ellipse */
+    border-radius: 50%/50%;
+}

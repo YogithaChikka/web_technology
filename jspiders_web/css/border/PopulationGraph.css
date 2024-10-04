@@ -1,0 +1,12 @@
+h2{
+    width: 80px;
+}
+#india_heading{
+    border-right: 300px solid red;
+}
+#china_heading{
+    border-right: 150px solid orange;
+}
+#us_heading{
+    border-right: 80px solid green;
+}

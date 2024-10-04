@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLForms</title>
+</head>
+<body>
+    <h1>HTML Forms_type attribute</h1>
+    <form action="">
+        <!-- label content is used to guide the user what input should be filled-->
+        <label for="">Username</label>
+        <!-- input is used for what type of input to be entered -->
+        <input type="text">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password">
+        <br><br>
+        <label for="">Mobile Number</label>
+        <input type="number">
+        <br><br>
+        <label for="">Email</label>
+        <input type="email">
+        <br><br>
+        <label for="">ChooseColor</label>
+        <input type="color">
+        <br><br>
+        <label for="">DOB</label>
+        <input type="date">
+        <br><br>
+        <label for="">YOP</label>
+        <input type="month">
+        <br><br>
+        <label for="">Week</label>
+        <input type="week">
+        <br><br>
+        <label for="">Form filled time</label>
+        <input type="time">
+        <br><br>
+        <label for="">Time and Date</label>
+        <input type="datetime-local">
+        <br><br>
+        <label for="">Gender</label>
+        <!-- 'radio' type is used for single select, but by default it is multiple select. To make it single select we use 'name' attribute -->
+        <input type="radio" name="Gender"> Male
+        <input type="radio" name="Gender"> Female
+        <input type="radio" name="Gender"> Others
+        <br><br>
+        <label for="">Select Skills</label>
+        <!-- 'checkbox' type is used for multiple  select -->
+
+         <!-- 'name' attribute is used to make the backend developer understand easily, when form data is stored in JSON object -->
+        <input type="checkbox" name="Skills"> HTML
+        <input type="checkbox" name="Skills"> CSS
+        <input type="checkbox" name="Skills"> JS
+        <br><br>
+        <label for="">Upload your Resume</label>
+        <!-- 'file' type is used to upload files -->
+        <input type="file">
+        <br><br>
+        <br><br>
+        <center><h3 style="color: red;">Google</h3>
+            <br>
+            <input type="search" style="width: 50%; border-radius: 10px; border: none; background-color: gray;">
+        </center>
+        
+        <br><br>
+        <center>
+            <input type="submit" value="Login">
+            <input type="reset" value="Clear">
+        </center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#parent,#child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+/* top-right and bottom-left */
+#parent{
+    border-radius: 100% 0%;
+}
+/* top-left and bottom-right */
+#child{
+    border-radius: 0% 100%;
+}

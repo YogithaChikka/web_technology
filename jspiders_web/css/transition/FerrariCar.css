@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 100%;
+    height: 600px;
+}
+#image_one,#image_two{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: all 8s;
+}
+#image_one{
+    background-image: url(../../assets/images/Ferrari_One.jpg);   
+}
+#image_two{
+    background-image: url(../../assets/images/Ferrari_Black.jpg);
+}
+#image_one:hover,#image_two:hover{
+    background-size: 120% 120%;
+    background-position: center;
+}

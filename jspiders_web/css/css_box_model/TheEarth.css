@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+legend{
+    margin-left: 20px;
+    font-size: 20px;
+}
+fieldset{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background-image: url(../../assets/images/Earth.png);
+    background-size: 360px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+h1,p{
+    color: transparent;
+}
+fieldset:hover{
+    border: 12px double darkblue;
+    background-size: 200px;
+    background-position: left;   
+}
+fieldset:hover>legend{
+    border: 2px solid darkblue;
+    margin-left: 70%;
+    color: darkblue;
+} 
+fieldset:hover>h1{
+    width: fit-content;
+    background-color: lightblue;
+    margin: 70px 0 0 210px;
+    padding: 10px;
+    color: darkblue;
+}
+fieldset:hover>p{
+    margin: 20px 10px 0 210px;
+    color: darkblue;
+} 
+

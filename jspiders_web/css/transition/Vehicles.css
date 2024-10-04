@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    /* width: 500px; */
+    width: 100%;
+    height: 550px;
+    background-color: gray;
+}
+.child_images{
+    width: 120px;
+    transition: all 5s;
+}
+#container:hover>.child_images{
+    margin-left: 83%;
+}
+#cycle{
+    /* ease: default value */
+    transition-timing-function: ease;
+}
+#motor_bike{
+    /* ease-in: slow start - fast end */
+    transition-timing-function: ease-in;
+    transition-delay: 5s;
+}
+#car{
+    /* ease-in-out: slow start - middle speed - slow end - */
+    transition-timing-function: ease-in-out;
+    transition-delay: 10s;
+}
+#truck{
+    /* ease-out: speed start - slow end */
+    transition-timing-function: ease-out;
+    transition-delay: 15s;
+}
+#bull_dozer{
+    /* linear: constant speed */
+    transition-timing-function: linear;
+    transition-delay: 20s;
+}
+
+/* By using bg-img */
+
+/* #cycle,#motor_bike,#car,#truck,#bull_dozer{
+    width: 100%;
+    height: 100px;
+    background-size: 18% 100%;
+    background-repeat: no-repeat;
+    transition: 5s;
+}
+#cycle{
+    background-image: url(../../assets/images/Cycle.png);
+}
+#motor_bike{
+    background-image: url(../../assets/images/Motorbike.png);
+}
+#car{
+    background-image: url(../../assets/images/Car.png);
+}
+#truck{
+    background-image: url(../../assets/images/Truck.png);
+}
+#bull_dozer{
+    background-image: url(../../assets/images/BullDozer.png);
+}
+#container:hover>#cycle,#container:hover>#motor_bike,#container:hover>#car,#container:hover>#truck,#container:hover>#bull_dozer{
+    background-position: top right;
+} */

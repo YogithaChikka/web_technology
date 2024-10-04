@@ -1,0 +1,76 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#gmail_sign_in{
+    width: 1000px;
+    height: 450px;
+    padding: 10px ;
+    margin: 60px auto;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+#left_part{
+    width: 300px;
+    height: 200px;
+    font-weight: 100;
+    margin: 30px;
+    float: left;
+}
+#google_icon{
+    width: 40px;
+}
+#right_part{
+    padding-top: 100px;
+    padding-right: 10px;
+    float: right;
+}
+#email_phone_placeholder{
+    width: 250px;
+    height: fit-content;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+#email_phone_placeholder:active{
+    border: 2px solid #0b57d0;
+}
+legend,a{
+    color: #0b57d0;
+}
+
+#email_or_phone{
+    width: 250px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+}
+a{
+    color: none;
+    text-decoration: none;
+}
+a:hover{
+    background-color: lightgray;
+    border-radius: 10px;  
+}
+#buttons{
+    float: right;
+    padding-top: 40px;
+}
+#create_account{
+    color: #0b57d0;
+    padding: 5px;
+}
+#next_button{
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #0b57d0;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+#next_button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+

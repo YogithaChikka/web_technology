@@ -1,0 +1,32 @@
+#container{
+    width: 150px;
+    height: 150px;
+
+    /* color name */
+    background-color: red;
+
+    /* rgb colorcode */
+    /* color value: 0-255 */
+    background-color: rgb(255,0,125);
+
+    /* rbga colorcode */
+    /* alpha scale (inc/dec transparency): 0-1 */
+    background-color: rgba(255,0,0,0.35);
+
+    /* hex colorcode */
+    /* hex value: 0-9,a-f (00 - ff) */
+    background-color: #008a7a;
+
+    /* hexa colorcode */
+    /* alpha scale: 00 - ff */
+    background-color: #008a6afa;
+
+    /* hsl colorcode */
+    /*  hue - color wheel 
+        saturation - inc/dec gray scale 
+        lightness - inc/dec lightness */
+    background-color: hsl(45deg, 100%, 50%);
+
+    /* hsla colorcode */
+    background-color: hsla(45deg, 100%, 50%, 0.76);
+}

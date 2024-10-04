@@ -1,0 +1,44 @@
+/* Pseudo Classes */
+
+/* selector:pseudo-class{
+    property: value;
+} */
+
+/* links which are not visited */
+a:link{
+    color: green;
+}
+/* links which are visited */
+a:visited{
+    color: yellow;
+}
+a:active{
+    color: rebeccapurple;
+}
+a:hover{
+    color: hotpink;
+    background-color: black;
+}
+/* a:focus{
+    color: orangered;
+} */
+
+/* first-child & last-child */
+#first_form>input:first-child, #first_form>input:last-child{
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    color: darkblue;
+    font-size: 16px;
+}
+#second_form>input:first-child, #second_form>input:last-child{
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    color: red;
+    font-size: 16px;
+}

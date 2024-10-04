@@ -1,0 +1,19 @@
+.child{
+    float: left;
+}
+#parent{
+    width: 50px;
+    height: 20px;
+}
+.text_blue{
+    color: royalblue;
+}
+.text_red{
+    color: red;
+}
+#text_orange{
+    color: orange;
+}
+#text_green{
+    color: green;
+}

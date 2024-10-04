@@ -1,0 +1,59 @@
+/* Universal Selector */
+
+/* *{
+    color: navy;
+} */
+
+/* Tag name selector */
+
+/* h1{
+    color: magenta;
+}
+p{
+    color: aqua;
+} */
+
+/* id selector - Same elements but different changes */
+
+/* #cj_heading{
+    color: orangered;
+}
+#aj_heading{
+    color: lightcoral;
+}
+#wt_heading{
+    color: teal;
+}
+#cj_paragraph{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+#cp_paragraph{
+    color: hotpink;
+    background-color: lightgrey;
+}
+#p_label{
+    color: green;
+} */
+
+/* class selectors - Different elements but same changes */
+
+/* .text_red{
+    color: red;
+}
+.text_blue{
+    color: blue;
+}
+.text_green{
+    color: green;
+} */
+
+/* group selectors */
+
+#hw_heading,#tw_heading{
+    color: firebrick;
+}
+#h_paragraph,#c_paragraph{
+    color: midnightblue;
+    background-color: bisque;
+}

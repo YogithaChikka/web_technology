@@ -1,0 +1,41 @@
+/* 1st method */
+#capsule{
+    width: 200px;
+    height: 100px;
+}
+#blue_capsule,#red_capsule{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#blue_capsule{
+    background-color: blue;
+    border-radius: 50% 0% 0% 50%;
+}
+#red_capsule{
+    background-color: red;
+    border-radius: 0% 50% 50% 0% ;
+}
+
+/* 2nd method */  
+#one_capsule{
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(90deg, blue 50%,red 50%);
+    border-radius: 85px;
+}
+
+/* 3rd method */
+#blue_part{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 75px;
+}
+#red_part{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    float: right;
+    border-radius: 0% 50% 50% 0%;
+}

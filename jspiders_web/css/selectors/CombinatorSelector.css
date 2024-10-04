@@ -1,0 +1,83 @@
+#grandparent{
+    width: 100%;
+    height: 450px;
+    background-color: gray;
+    text-align: center;
+}
+#father,#babai{
+    width: 50%;
+    height: 391px;
+    float: left;
+}
+#father{
+    background-color: lightblue;
+}
+#babai{
+    background-color: lightpink;
+}
+#you,#sibling_one,#sibling_two{
+    width: 33.3%;
+    height: 310px;
+    float: left;
+}
+#you{
+    background-color: gray;
+}
+#sibling_one{
+    background-color: lightyellow;
+}
+#sibling_two{
+    background-color: lightcoral;
+}
+#cousin_one,#cousin_two{
+    width: 50%;
+    height: 310px;
+    float: left;
+}
+#cousin_one{
+    background-color: orange;
+}
+#cousin_two{
+    background-color: burlywood;
+}
+
+/* child selector */
+
+/* #grandfather>#father {
+    background-color: lightseagreen;
+}
+
+#sibling_one>#sibling_one_heading{
+    color: blue;
+}
+
+#babai>#cousin_two{
+    background-color: lightgreen;
+} */
+
+/* Decendant selectors */
+
+/* #grandfather #cousin_one_heading{
+    background-color: black;
+    color: aqua;
+}
+
+#father #sibling_one_heading{
+    color: red;
+} */
+
+/* Adjacent sibling selector */
+
+#you+#sibling_one{
+    background-color: aquamarine;
+}
+
+#father+#babai{
+    background-color: lawngreen;
+}
+
+/* General sibling selector */
+
+#you~#sibling_two{
+    background-color: peru;
+}

@@ -1,0 +1,16 @@
+#leaf_pattern{
+    width: 200px;
+    height: 200px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(lightgreen, darkgreen);
+    float: left;
+}
+#first_leaf,#fourth_leaf{
+    border-radius: 0% 100%;
+}
+#second_leaf,#third_leaf{
+    border-radius: 100% 0%;
+}

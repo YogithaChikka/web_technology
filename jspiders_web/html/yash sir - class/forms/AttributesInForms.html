@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AttributesInForms</title>
+</head>
+<body>
+    <form action="https://www.facebook.com/login/">
+
+        <!-- 'for' value works for username input box-->
+        <!-- This builds the connection between 'for'(label) and 'id'(input) -->
+
+        <!-- <label for="username">Username</label>
+        <input type="text" name="Username" id="username">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="Password" id="password">
+        <br><br> -->
+
+        <!-- required attribute is used to tell the user to fill in the field mandatorily -->
+
+         <!-- placeholder attribute is used for user understanding in their webpage -->
+            <!-- name attribute is used for backend developers understanding in JSON file -->
+                <!-- id attribute is used for frontend developers understanding in HTML file -->
+        <input placeholder="Email" type="email" name="Email" id="email" required>
+        <sup style="color: red;">*</sup>
+        <br><br>
+        <input placeholder="Password" type="password" name="Password" id="password" required>
+        <sup style="color: red;">*</sup>
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>

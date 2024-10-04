@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <form action="https://www.facebook.com/login/" target="_blank">
+        <label for="">Username</label>
+        <input type="text">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password">
+        <br><br>
+        <input type="range">
+        <br><br>
+        <!-- 'image' type will work same as submit button. It will trigger form action (HyperImage) -->
+        <input type="image" src="../../assets/images/SubmitImage.png" style="width: 30px;">
+        <!-- submit button will internally trigger form action -->
+        <input type="submit" value="Login">
+        <input type="reset" value="Cancel">
+        <a href="https://www.facebook.com/signup" target="_blank">
+            <!-- 'button' will not trigger form action instead work as normal button (HyperButton) -->
+            <input type="button" value="Register">
+        </a>
+    </form>
+</body>
+</html>

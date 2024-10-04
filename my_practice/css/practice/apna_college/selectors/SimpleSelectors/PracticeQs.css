@@ -1,0 +1,61 @@
+h2{
+    /* text-align is relative to the parent element */
+    text-align: right;
+    width: 50%;
+    /* border: solid; */
+
+    /* color name */
+    color:orange;
+    /* rgb code  */
+    color: rgb(180,250,175);
+    /* rgba code */
+    color: rgba(250,150,150,0.674);
+    /* hex code */
+    color: #9d5c9f;
+    /* hexa code */
+    color: #2e5a00d1;
+    /* hsl code */
+    color: hsl(90deg,100%,50%);
+    /* hsla code */
+    color: hsla(150deg,40%,30%,0.50);
+
+    /* hex code for rgb(255,255,255) */
+    color: #ffffff;
+
+    /* orange - hexcode */
+    color:#ff7a00;
+
+    /* lightblue - hexcode */
+    color: #00faff;
+}
+
+h1{
+    text-align: center;
+    /* text decoration style - solid, dotted, wavy, dashed, double */
+    text-decoration: wavy red underline;
+    /* width: 50%;
+    border: solid;
+    background-color: cornflowerblue; */
+}
+h4{
+    /* text-align: right; */
+    /* english: left (start) to right (end) */
+    text-align: end;
+    text-decoration: dotted hotpink line-through;
+}
+p{
+    /* equal alignment of text horizontally, with spaces between the words */
+    text-align: justify;
+    /* normal - 400 */
+    font-weight: 400;
+    /* line height value multiplied with normal */
+    line-height: 2.5;
+}
+h3{
+    /* bold - 700 */
+    font-weight: 800;
+    text-decoration: blue double overline;
+}
+a{
+    text-decoration: none;
+}
