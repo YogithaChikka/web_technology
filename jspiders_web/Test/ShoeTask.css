@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#shoe_container_heading{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 70px;
+    font-style: normal;
+    text-align: center;
+    background-image: linear-gradient(red,black);
+    background-clip: text;
+    color: transparent;
+}
+#image_container{
+    width: 98%;
+    height: 300px;
+    border: 5px solid red;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+.child_div{
+    width: 180px;
+    height: 180px;
+    border: 3px solid red;
+    border-radius: 10px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.child_images{
+    width: 185px;
+    float: left;
+    transition: all 1s;
+}
+h2,p{
+    color: blue;
+    transition-delay: 250ms;
+    transition: all 250ms ;
+}
+#nike_img{
+    transform: translate(0px,-190px);
+}
+#nike_heading{
+    color: transparent;
+    font-size: 40px;
+    margin-left: 70px;
+}
+#nike_content{
+    color: transparent;
+    margin: 12px 0px 2px 70px;
+}
+#nike_shoe:hover>#nike_img{
+    transform: translate(-150px,-250px) rotateZ(-90deg) scale(2);
+}
+#puma_img{
+    transform: translate(0,-180px);
+}
+#puma_heading{
+    color: transparent;
+    font-size: 40px;
+    margin-left: 10px;
+}
+#puma_content{
+    color: transparent;
+    margin: 12px 70px 2px 10px;
+}
+#puma_shoe:hover>#puma_img{
+    transform: translate(120px,-250px) rotateZ(90deg) scale(2);
+}
+#adidas_img{
+    transform: translate(0,-120px);
+}
+#adidas_heading{
+    color: transparent;
+    font-size: 40px;
+    margin-left: 10px;
+}
+#adidas_content{
+    color: transparent;
+    margin: 12px 70px 2px 10px;
+}
+#adidas_shoe:hover>#adidas_img{
+    transform: translate(120px,-180px) rotateZ(90deg) scale(2);
+}
+#nike_shoe:hover>#nike_heading,#puma_shoe:hover>#puma_heading,#adidas_shoe:hover>#adidas_heading{
+    color: blue;
+}
+#nike_shoe:hover>#nike_content,#puma_shoe:hover>#puma_content,#adidas_shoe:hover>#adidas_content{
+    color: blue;
+}
+#place_order_button{
+    margin-left: 600px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 2px 5px 0px lightgray;
+    cursor: pointer;
+    transition: all 1s;
+}
+#place_order_button:hover{
+    transform: scale(1.2);
+}

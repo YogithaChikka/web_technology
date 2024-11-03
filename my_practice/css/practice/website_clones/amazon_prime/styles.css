@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    /* border: solid cyan; */
+    justify-content: center;
+    background-color: black;
+}
+
+#primevideo-image {
+    width: 96px;
+    height: 18px;
+}
+
+.navbar-items {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid red; */
+    color: darkgrey;
+}
+
+.navbar-list {
+    margin: 20px;
+}
+
+#item6 {
+    display: flex;
+    cursor: pointer;
+    color: darkgrey;
+    position: relative;
+    right: 20px;
+    z-index: 1;
+}
+
+#search-box {
+    width: 20px;
+    position: relative;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+}
+
+.dropdown {
+    color: grey;
+    border: none;
+    background-color: black;
+}
+
+#join-prime {
+    background-color: #0f79af;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.first-div {
+    background-image: linear-gradient(to right, black,black,rgba(0,0,0,0.181),rgba(0,0,0,0)),url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    height: 100vh;
+    background-size: cover;
+    /* border: solid red; */
+}
+
+.first-left-content {
+    color: whitesmoke;
+    width: 550px;
+    padding: 50px;
+}
+
+.div1-text {
+    margin-bottom: 30px;
+}
+
+.button {
+    width: 280px;
+    color: whitesmoke;
+    background-color: #0f79af;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.second-div {
+    background-image: linear-gradient(to right, black,black,rgba(0,0,0,0.181),rgba(0,0,0,0)),url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    height: 100vh;
+    background-size: cover;
+    /* border: solid red; */
+}
+
+.second-left-content {
+    color: whitesmoke;
+    width: 700px;
+    padding: 50px;
+}
+
+.div2-text {
+    margin-bottom: 30px;
+}
+
+.third-div {
+    background-color: white;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+}
+
+.third-left-content {
+    /* border: solid red; */
+    padding: 20px;
+    width: 500px;
+    bottom: 100px;
+    margin-left: 50px;
+}
+
+.div3-text {
+    margin-bottom: 20px;
+}
+
+.dimensions {
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.channel-card-container {
+    position: absolute;
+    /* border: solid red; */
+    /* width: 650px; */
+    width: 46%;
+    height: 550px;
+    padding: 5px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    right: 50px;
+}
+
+.dimensions:hover {
+    box-shadow: 0px 0px 10px 5px rgb(16,16,16);
+}
+
+.footer {
+    background-color: darkgrey;
+    display: flex;
+}
+.footer-content {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 15px;
+    width: 350px;
+    left: 50%;
+}
+
+#prime-logo {
+    width: 100px;
+    height: 30px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    margin-left: 40px;
+}
+
+.a1 {
+    text-decoration: none;
+    /* color: #79b8f3; */
+    margin-left: 200px;
+}
+
+

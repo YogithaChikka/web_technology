@@ -1,0 +1,58 @@
+*{
+    /* content-box: adds up the border and padding in the given width */
+    /* box-sizing: content-box; */
+
+    /* border-box: shrinks the content and makes room for border and padding */
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #ffffff;
+    border-bottom: 4px solid #fdb347;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #f5f6f7;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    /* wrap: wraps the items to the next row/column, */
+    flex-wrap: wrap;
+
+    /* nowrap: prevents from wrapping and shrink them if needed */
+    /* flex-wrap: nowrap; */
+
+    /* justify-content: determines how the items inside a flex container are positioned along the main axis */
+    justify-content: center;
+   
+    /* align-items: position the flex content along the cross axis */
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    /* The gap property and its row-gap and column-gap sub-properties provide this functionality for flex, grid, and multi-column layout.  */
+    gap: 16px;
+}
+
+/* gallery(parent) - img(child) : child selector */
+.gallery>img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    /* cover: fills the img container while maintaining the aspect ratio */
+    object-fit: cover;
+    border-radius: 10px;
+}
+.gallery::after{
+    content: "";
+    width: 350px;
+}

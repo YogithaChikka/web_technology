@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">HealthCheck SurveyForm</h1>
+    <p id="description">Empowering Healthier Lives, One Question</p>
+    <form action="" id="survey_form">
+        <label for="name" id="name_label">Name
+            <br>
+            <input type="text" id="name" required placeholder="Enter your name">
+        </label>
+        <br>
+        <label for="age" id="age_label">Age
+            <br>
+            <input type="number" id="age" required placeholder="Enter your Age">
+        </label>
+        <br>
+        <label for="date" id="date_label">Date
+            <br>
+            <input type="date" id="date">
+        </label>
+        <br>
+        <label for="email" id="email_label">Email
+            <br>
+            <input type="email" id="email" required placeholder="Enter your Email">
+        </label>
+        <br>
+        <label for="number" id="number_label">Contact
+            <br>
+            <input type="number" id="number" minlength= "10" maxlength="10" placeholder="Enter your number">
+        </label>
+        <br>
+        <select name="" id="dropdown">
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        <br>
+        Gender 
+        <input type="radio" value="Male" name="Gender"> Male
+        <input type="radio" value="Female" name="Gender"> Female
+        <br><br>
+        <h3>Health Questions</h3>
+        <br>
+        <p>How would you describe your overall health?</p>
+        <br>
+        <input type="checkbox" value="excellent"> Excellent
+        <input type="checkbox" value="verygood"> Very Good
+        <input type="checkbox" value="good"> Good
+        <input type="checkbox" value="fair"> Fair
+        <input type="checkbox" value="poor"> Poor
+        <br><br>
+        <p>Do you have any chronic health conditions?</p>
+        <br>
+        <input type="checkbox" value="heartdisease"> Heart disease
+        <input type="checkbox" value="diabetes"> Diabetes
+        <input type="checkbox" value="Asthma"> Asthma
+        <input type="checkbox" value="Hypertension"> Hypertension
+        <br><br>
+        <p>Additional Comments or Concerns (Optional)</p>
+        <textarea></textarea>
+        <br>
+        <input type="submit" id="submit" value="Submit">
+    </form>    
+</body>
+</html>

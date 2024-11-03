@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExternalJS</title>
+    <!-- when 'defer' attribute is passed it will execute all the HTML code first and then link external js (asynchronous). 
+    document.write will not work when file is loaded asynchronously -->
+     <!-- when 'defer' attribute is not passed we are not stopping execution of js file (synchronous) -->
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1 id="heading"></h1>
+</body>
+</html> 
+
+

@@ -1,0 +1,1 @@
+document.getElementById("heading_three").innerHTML="This is heading three";
