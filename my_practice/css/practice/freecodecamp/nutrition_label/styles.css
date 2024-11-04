@@ -84,3 +84,17 @@ p {
 .right {
     justify-content: flex-end;
 }
+
+.indent {
+    margin-left: 1em;
+    /* margin-left: 16px; */
+}
+
+.double-indent {
+    margin-left: 2em;
+    /* margin-left: 32px; */
+}
+
+.daily-value p:not(.no-divider){
+    border-bottom: 1px solid #888989;
+}
