@@ -22,8 +22,6 @@
 }
 #left-div {
     width: fit-content;
-    /* translate: 100px 5px; */
-    /* border: 1px solid; */
 }
 #sample-cafe-heading {
     font-size: 30px;
@@ -58,6 +56,22 @@
     background-image: linear-gradient(lightgray,gray);
     margin: 5px auto;
 }
+
+#menu-div>#menu-logo{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+#menu-div>#menu-heading{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: transparent;
+    transform: translate(10px,-3px);
+}
+
 .radio-buttons {
     margin-left: 85px;
 }
@@ -68,11 +82,11 @@
     width: 100%;
     height: 600px;
     margin-top: 40px;
-    border: 2px solid;
+    /* border: 2px solid; */
 }
 #heading-content-div {
     width: 100%;
-    border: 2px solid;
+    /* border: 2px solid; */
 
 }
 #heading-div-content {
@@ -80,7 +94,7 @@
     color: white;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    border: 2px solid;
+    /* border: 2px solid; */
     border-radius: 25px;
     margin-left: 10px;
     margin-top: 5px;
@@ -90,7 +104,7 @@
     height: 450px;
     margin-left: 150px;
     margin-top: 30px;
-    border: 2px solid;
+    /* border: 2px solid; */
 }
 .img-div {
     width: 250px;
@@ -117,5 +131,15 @@
     font-size: 12px;
     margin: 15px 20px;    
 }
-
-
+#heading-content-div{
+    background-color: #542609;
+    height: 50px;
+    width:1076px ;
+    border-radius: 10px;
+}
+#heading-content{
+    font-size: 25px;
+    background-color: transparent;
+    transform: translate(20px,10px);
+    color: white;
+}
