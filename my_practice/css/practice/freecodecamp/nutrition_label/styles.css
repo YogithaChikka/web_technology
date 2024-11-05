@@ -50,6 +50,7 @@ p {
 .medium {
     height: 5px;
 }
+
 .small-text {
     font-size: 0.85rem;
     /* font-size: 13.6px; */
@@ -97,4 +98,15 @@ p {
 
 .daily-value p:not(.no-divider){
     border-bottom: 1px solid #888989;
+}
+
+.note {
+    font-size: 0.6rem;
+    /* font-size: 9.8px; */
+    margin: 5px 0px;
+    padding: 0px 8px;
+    /* The text-indent property specifies the indentation of the first line in a text-block.
+
+    Note: Negative values are allowed. The first line will be indented to the left if the value is negative */
+    text-indent: -8px;
 }
