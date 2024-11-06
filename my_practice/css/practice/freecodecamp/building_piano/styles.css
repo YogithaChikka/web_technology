@@ -1,0 +1,4 @@
+/* By default, the width and height of an element is calculated like this:
+
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element */
